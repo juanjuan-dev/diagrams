@@ -1,54 +1,53 @@
-<mxfile host="app.diagrams.net" modified="2021-12-24T06:30:17.223Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="pDYBPIxj3OVKJt8iGGz4" version="16.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-28T10:07:14.735Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="pwCg9BHTEHhx87N9mAPS" version="16.0.3" type="github">
   <diagram id="GiffibL8VXr5UCDkVI0S" name="Page-1">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="gPjwPrpTAK25CLT7Ry18-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="gPjwPrpTAK25CLT7Ry18-2" target="gPjwPrpTAK25CLT7Ry18-3" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="gPjwPrpTAK25CLT7Ry18-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="BO2W2qCkn1IsApAjZtwb-1" target="gPjwPrpTAK25CLT7Ry18-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="110" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="gPjwPrpTAK25CLT7Ry18-2" value="在线充值平台获取bizKey逻辑" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="240" y="50" width="140" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="gPjwPrpTAK25CLT7Ry18-5" value="收款主体维度" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="gPjwPrpTAK25CLT7Ry18-3" target="gPjwPrpTAK25CLT7Ry18-8" edge="1">
+        <mxCell id="gPjwPrpTAK25CLT7Ry18-5" value="强控" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="gPjwPrpTAK25CLT7Ry18-3" target="gPjwPrpTAK25CLT7Ry18-8" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="310" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gPjwPrpTAK25CLT7Ry18-6" value="品牌维度" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="gPjwPrpTAK25CLT7Ry18-3" target="gPjwPrpTAK25CLT7Ry18-7" edge="1">
+        <mxCell id="gPjwPrpTAK25CLT7Ry18-6" value="不强控" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="gPjwPrpTAK25CLT7Ry18-3" target="gPjwPrpTAK25CLT7Ry18-7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="500" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gPjwPrpTAK25CLT7Ry18-3" value="开关配置&lt;br&gt;品牌维度&lt;br&gt;收款主体维度" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="260" y="200" width="100" height="100" as="geometry" />
+        <mxCell id="gPjwPrpTAK25CLT7Ry18-3" value="&lt;span style=&quot;font-size: 11px&quot;&gt;通过获&lt;br&gt;取数据库&lt;br&gt;配置判断&lt;/span&gt;是否强&lt;br&gt;控三流&lt;br&gt;合一开关" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="250" y="194" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="gPjwPrpTAK25CLT7Ry18-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="gPjwPrpTAK25CLT7Ry18-7" target="gPjwPrpTAK25CLT7Ry18-23" edge="1">
+        <mxCell id="BO2W2qCkn1IsApAjZtwb-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gPjwPrpTAK25CLT7Ry18-7" target="BO2W2qCkn1IsApAjZtwb-3">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="430" y="980" as="targetPoint" />
+            <mxPoint x="453" y="1119" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="720" y="250" />
-              <mxPoint x="720" y="980" />
+              <mxPoint x="724" y="250" />
+              <mxPoint x="724" y="1119" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="gPjwPrpTAK25CLT7Ry18-7" value="现有逻辑根据品牌&lt;br&gt;取bizKey" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="560" y="200" width="100" height="100" as="geometry" />
+        <mxCell id="gPjwPrpTAK25CLT7Ry18-7" value="现有逻辑根据品牌&lt;br&gt;取bizKey私钥" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="479" y="200" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="gPjwPrpTAK25CLT7Ry18-9" value="深圳站点" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="gPjwPrpTAK25CLT7Ry18-8" edge="1">
+        <mxCell id="gPjwPrpTAK25CLT7Ry18-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="gPjwPrpTAK25CLT7Ry18-8" edge="1" target="gPjwPrpTAK25CLT7Ry18-14">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="310" y="600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gPjwPrpTAK25CLT7Ry18-13" value="海外站点" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="gPjwPrpTAK25CLT7Ry18-8" target="gPjwPrpTAK25CLT7Ry18-7" edge="1">
+        <mxCell id="gPjwPrpTAK25CLT7Ry18-13" value="是转运B类客户" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="gPjwPrpTAK25CLT7Ry18-8" target="gPjwPrpTAK25CLT7Ry18-7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="500" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gPjwPrpTAK25CLT7Ry18-8" value="海外站点还是&lt;br&gt;深圳站点" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="260" y="390" width="100" height="100" as="geometry" />
+        <mxCell id="gPjwPrpTAK25CLT7Ry18-8" value="判断是否是转运&lt;br&gt;B类客户" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="251" y="390" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="gPjwPrpTAK25CLT7Ry18-15" value="获取用户收款主体" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="gPjwPrpTAK25CLT7Ry18-14" target="gPjwPrpTAK25CLT7Ry18-19" edge="1">
+        <mxCell id="gPjwPrpTAK25CLT7Ry18-15" value="获取收款归属公司" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="gPjwPrpTAK25CLT7Ry18-14" target="gPjwPrpTAK25CLT7Ry18-19" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="310" y="780" as="targetPoint" />
           </mxGeometry>
@@ -64,8 +63,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gPjwPrpTAK25CLT7Ry18-14" value="根据充值客户+币种请求CRM" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="260" y="590" width="100" height="100" as="geometry" />
+        <mxCell id="gPjwPrpTAK25CLT7Ry18-14" value="根据充值客户+币种&lt;br&gt;请求CRM" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="251" y="576" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="gPjwPrpTAK25CLT7Ry18-18" value="CRM签约&lt;br&gt;异常情况处理" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="560" y="590" width="100" height="100" as="geometry" />
@@ -83,11 +82,22 @@
             <mxPoint x="310" y="940" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gPjwPrpTAK25CLT7Ry18-19" value="根据收款主体查询请求bizKey" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="260" y="780" width="100" height="100" as="geometry" />
+        <mxCell id="gPjwPrpTAK25CLT7Ry18-19" value="根据收款归属公&lt;br&gt;司查询数据库确定&lt;br&gt;请求bizKey" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="251" y="774" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="gPjwPrpTAK25CLT7Ry18-23" value="根据获取到的bizKey和私钥获取支付渠道" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="245" y="950" width="130" height="60" as="geometry" />
+        <mxCell id="BO2W2qCkn1IsApAjZtwb-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gPjwPrpTAK25CLT7Ry18-23" target="BO2W2qCkn1IsApAjZtwb-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="311" y="1049" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gPjwPrpTAK25CLT7Ry18-23" value="根据获取到的bizKey和私钥请求支付平台" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="246" y="957" width="130" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="BO2W2qCkn1IsApAjZtwb-1" value="&lt;span&gt;在线充值平台获取bizKey逻辑&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="260" y="18" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="BO2W2qCkn1IsApAjZtwb-3" value="请求支付平台" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="246" y="1094" width="130" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
