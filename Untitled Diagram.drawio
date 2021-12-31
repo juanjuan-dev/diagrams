@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-28T10:51:00.372Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="NllrEbBY-YRqWK57S0pj" version="16.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-31T03:31:07.793Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="jqp_poBupJCLJDNDHSvg" version="16.0.3" type="github">
   <diagram id="GiffibL8VXr5UCDkVI0S" name="Page-1">
-    <mxGraphModel dx="1778" dy="953" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -67,10 +67,16 @@
           <mxGeometry x="251" y="576" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="gPjwPrpTAK25CLT7Ry18-18" value="CRM签约&lt;br&gt;异常情况处理" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="560" y="590" width="100" height="100" as="geometry" />
+          <mxGeometry x="560" y="615" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="gPjwPrpTAK25CLT7Ry18-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="gPjwPrpTAK25CLT7Ry18-19" target="gPjwPrpTAK25CLT7Ry18-18" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="gPjwPrpTAK25CLT7Ry18-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="gPjwPrpTAK25CLT7Ry18-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="830" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="470" y="830" />
+              <mxPoint x="470" y="830" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="gPjwPrpTAK25CLT7Ry18-21" value="该收款主体无配置biz_key" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="gPjwPrpTAK25CLT7Ry18-20" vertex="1" connectable="0">
           <mxGeometry x="-0.1514" y="3" relative="1" as="geometry">
@@ -92,6 +98,9 @@
         </mxCell>
         <mxCell id="gPjwPrpTAK25CLT7Ry18-23" value="根据获取到的bizKey和私钥请求支付平台" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="246" y="957" width="130" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ipE9X8FeHIc62H72Ss4Q-1" value="无配置异常处理" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="560" y="805" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="BO2W2qCkn1IsApAjZtwb-1" value="&lt;span&gt;在线充值平台获取bizKey逻辑&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="260" y="18" width="100" height="100" as="geometry" />
